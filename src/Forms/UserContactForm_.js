@@ -18,6 +18,7 @@ class UserContactForm extends Form {
       },
       errors: {}
     };
+    
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
     this.validate = this.validate.bind(this);
