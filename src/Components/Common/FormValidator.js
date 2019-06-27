@@ -1,4 +1,5 @@
 class FormValidator {
+  
   isRequired(value) {
     return value !== ""
       ? { valid: true, message: "" }
